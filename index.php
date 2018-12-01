@@ -179,9 +179,8 @@ $mailer->LE            = $mail_newline;
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="author" content="LDAP Tool Box" />
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
-    <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css" />
     <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
-    <link rel="stylesheet" type="text/css" href="css/self-service-password.css" />
+    <link rel="stylesheet" type="text/css" href="css/e-legion.css" />
     <link href="images/favicon.ico" rel="icon" type="image/x-icon" />
     <link href="images/favicon.ico" rel="shortcut icon" />
 <?php if (isset($background_image)) { ?>
@@ -197,8 +196,15 @@ $mailer->LE            = $mail_newline;
 
 <div class="container">
 
-<div class="panel panel-success">
-<div class="panel-body">
+<div class="wrapper">
+
+<?php if ( $logo ) { ?>
+<div class="header">
+    <a href="index.php" alt="Home">
+        <img src="<?php echo $logo; ?>" alt="Logo" class="img-responsive" />
+    </a>
+</div>
+<?php } ?>
 
 <?php if ( $show_menu ) {
     include("menu.php");
@@ -206,11 +212,7 @@ $mailer->LE            = $mail_newline;
 <div class="title alert alert-success text-center"><h1><?php echo $messages["title"]; ?></h1></div>
 <?php } ?>
 
-<?php if ( $logo ) { ?>
-<a href="index.php" alt="Home">
-<img src="<?php echo $logo; ?>" alt="Logo" class="logo img-responsive center-block" />
-</a>
-<?php } ?>
+
 
 <?php
     if ( count($dependency_check_results) > 0 ) {
@@ -226,7 +228,6 @@ $mailer->LE            = $mail_newline;
     }
 ?>
 
-</div>
 </div>
 
 </div>

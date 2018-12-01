@@ -75,6 +75,7 @@ $messages['answermoderror'] = "Your answer has not been registered";
 $messages['answerchanged'] = "Your answer has been registered";
 $messages['answernomatch'] = "Your answer is incorrect";
 $messages['resetbyquestionshelp'] = "Choose a question and answer it to reset your password. This requires that you have already <a href=\"?action=setquestions\">register an answer</a>.";
+$messages['changetitle'] = "Password change";
 $messages['changehelp'] = "Enter your old password and choose a new one.";
 $messages['changehelpreset'] = "Forgot your password?";
 $messages['changehelpquestions'] = "<a href=\"?action=resetbyquestions\">Reset your password by answering questions</a>";
@@ -89,6 +90,7 @@ $messages['sendtokenhelpnomail'] = "Enter your user name to reset your password.
 $messages['mail'] = "Mail";
 $messages['mailrequired'] = "Your email address is required";
 $messages['mailnomatch'] = "The email address does not match the submitted user name";
+$messages['tokentitle'] = "Password reset";
 $messages['tokensent'] = "A confirmation email has been sent";
 $messages['tokennotsent'] = "Error when sending confirmation email";
 $messages['tokenrequired'] = "Token is required";

@@ -71,6 +71,7 @@ $messages['answermoderror'] = "Ваш ответ не зарегистриров
 $messages['answerchanged'] = "Ваш ответ зарегистрирован";
 $messages['answernomatch'] = "Ваш ответ неправильный";
 $messages['resetbyquestionshelp'] = "Выберите вопрос и ответьте на него, чтобы сбросить пароль. Перейдите по ссылке <a href=\"?action=setquestions\">для создания ответа</a>.";
+$messages['changetitle'] = "Смена пароля";
 $messages['changehelp'] = "Введите Ваш старый пароль и выберите новый";
 $messages['changehelpreset'] = "Забыли Ваш пароль?";
 $messages['changehelpquestions'] = "<a href=\"?action=resetbyquestions\"> Сбросьте Ваш пароль, ответив на вопросы</a>";
@@ -82,6 +83,7 @@ $messages['sendtokenhelpnomail'] = "Введите Ваш логин для сб
 $messages['mail'] = "Электронный адрес";
 $messages['mailrequired'] = "Введите Ваш электронный адрес";
 $messages['mailnomatch'] = "Ваш электронный адрес не совпадает с указанным логином";
+$messages['tokentitle'] = "Сброс пароля";
 $messages['tokensent'] = "Электронное письмо для подтверждения выслано";
 $messages['tokennotsent'] = "Ошибка отправки электронного письма для подтверждения";
 $messages['tokenrequired'] = "Необходим token ";
